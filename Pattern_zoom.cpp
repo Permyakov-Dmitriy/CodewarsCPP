@@ -66,10 +66,26 @@ int main() {
         rows.push_front(*it);
     }
 
-    for (auto &&i : rows)
-    {
-        cout << i << endl;
+    string test;
+
+    for (int i = 0; i < size(rows); i++)
+    {   
+        if (i != size(rows) - 1)
+        {
+             test += rows[i] + "\n";
+        }
+        else
+        {
+            test += rows[i];
+        }
     }
+    
+    cout << test << endl;
+
+    // for (auto &&i : rows)
+    // {
+    //     cout << i << endl;
+    // }
 
     system("pause");
 
