@@ -82,11 +82,6 @@ int main() {
     
     cout << test << endl;
 
-    // for (auto &&i : rows)
-    // {
-    //     cout << i << endl;
-    // }
-
     system("pause");
 
     return 0;
